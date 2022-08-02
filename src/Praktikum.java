@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
 public class Praktikum {
-    public Praktikum() {
-    }
 
-    public static void main(String[] var0) {
+    public static void main(String[] args) {
         Scanner var1 = new Scanner(System.in);
         System.out.println("Введите год:");
         int var2 = var1.nextInt();
@@ -13,7 +11,6 @@ public class Praktikum {
         } else {
             System.out.println("13.09." + var2);
         }
-
     }
 
     public static boolean isLeapYear(int var0) {
