@@ -12,7 +12,6 @@ public class Praktikum {
             System.out.println("13.09." + var2);
         }
     }
-
     public static boolean isLeapYear(int var0) {
         if (var0 % 4 == 0) {
             if (var0 % 100 == 0) {
